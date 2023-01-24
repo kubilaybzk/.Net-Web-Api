@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagement", "Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temeller", "Temeller\Temeller.csproj", "{DB056C2C-6A73-4D27-84BC-2B0BC2A44F06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{22F0B3DA-327B-48FC-B027-DC30742D2D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB056C2C-6A73-4D27-84BC-2B0BC2A44F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB056C2C-6A73-4D27-84BC-2B0BC2A44F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB056C2C-6A73-4D27-84BC-2B0BC2A44F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F0B3DA-327B-48FC-B027-DC30742D2D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F0B3DA-327B-48FC-B027-DC30742D2D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F0B3DA-327B-48FC-B027-DC30742D2D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F0B3DA-327B-48FC-B027-DC30742D2D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
