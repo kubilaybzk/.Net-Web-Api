@@ -14,27 +14,37 @@ namespace Methods
             Add4(1,2,3,4,5);
 
         }
-        //Veri almadan  yazılan fonksiyonlar 
+        //Veri almadan  yazılan fonksiyonlar
+
         static void Add()
         {
             Console.WriteLine("Added");
         }
-        //Veri Alınarak yazılan fonksiyonlar 
+        //Veri Alınarak yazılan fonksiyonlar
+
         static void Add2(int number1, int number2)
         {
             Console.WriteLine(number1+number2);
         }
         //Default değerlere sahip ve veri Alınarak yazılan fonksiyonlar
+
         //Default değerler her zaman en sona yazılması gerekir. Yoksa hata verir uygulama .
+
         static void Add3(int number1, int number2=20)
         {
             Console.WriteLine(number1 + number2);
         }
+
         //Methodun kaç parametresi var bilmiyorsak yapmamız gerken işlem.
+
+        //Methodun alacağı değerleri params type[] name şeklinde düzenlemek..
+
         static void Add4(int number1,int number2, params int[] numbers)
         {
             Console.WriteLine(number1 + number2 + numbers.Sum()) ;
         }
+
+
 
     }
 }
