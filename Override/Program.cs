@@ -39,7 +39,7 @@
        public override void Add()
         {
             Console.WriteLine("Mysql Added");
-            base.Add();
+            base.Add(); // Burası override edilen fonksiyonun tekrar kullanılmasını sa
         }
     }
 
