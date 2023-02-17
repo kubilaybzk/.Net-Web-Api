@@ -69,8 +69,10 @@
     public static void  Result()
     {
         CostumerV2 costumer2 = new CostumerV2 { Id = 1, LastName = "Bozak", Age = 25 };
+        CostumerV2 costumer3 = new CostumerV2 { Id = 1,  Age = 25 };
         CostumerDalV2 test2 = new CostumerDalV2();
         test2.Add(costumer2);
+        test2.Add(costumer3);
     }
 
 
