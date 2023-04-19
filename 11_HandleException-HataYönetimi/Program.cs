@@ -39,7 +39,7 @@ internal class Program
 
             if (!studentList.Contains("Ahmets"))
             {
-                throw new RecordNotFoundException (  "Selam" );
+                throw new RecordNotFoundException (  "Bulunamadı" );
             }
             else
             {
@@ -57,7 +57,7 @@ internal class Program
         }
         catch(RecordNotFoundException e)
         {
-            Console.WriteLine(e.Message);
+            Console.WriteLine("front-end kısmında hata {0} ",e.Message);
         }
 
 

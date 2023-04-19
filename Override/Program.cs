@@ -45,6 +45,10 @@
 
     class OracleData : Database
     {
-        
+        public override void Add()
+        {
+            Console.WriteLine("OracleData Added");
+            
+        }
     }
 }

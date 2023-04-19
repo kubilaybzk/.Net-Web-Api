@@ -106,6 +106,11 @@
         {
             throw new NotImplementedException();
         }
+
+        ProductV2 IRepository<ProductV2>.Get(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     class CostumerV2 : ICostumerDalV2
@@ -131,6 +136,11 @@
         }
 
         public void Update(CostumerV2 entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        CostumerV2 IRepository<CostumerV2>.Get(int id)
         {
             throw new NotImplementedException();
         }

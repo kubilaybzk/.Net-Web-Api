@@ -217,11 +217,10 @@ internal class Program
     {
         //classlar somut nesnedir.
         //Interface içinde yapılan tanımlamalar burada da eklenmelidir.
+        public string Address { get; set; }  // Farklı bir özellik ekleyebiliriz.
         public int id { get; set; }
         public string Name { get; set; }
-        public string LastName { get; set; }
-        public string Address { get; set; }  // Farklı bir özellik ekleyebiliriz.
-
+        public string LastName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 
 

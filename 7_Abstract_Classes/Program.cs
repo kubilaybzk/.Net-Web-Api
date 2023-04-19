@@ -38,6 +38,10 @@
 
 
     }
+
+
+
+
     class SqlServer : Database
     {
         public override void Delete()
@@ -46,6 +50,10 @@
         }
 
     }
+
+
+
+
     class   OracleServer : Database
     {
         public override void Delete()
@@ -55,6 +63,9 @@
         }
 
     }
+
+
+
 
     class MySqlServer : Database
     {
